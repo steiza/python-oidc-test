@@ -1,15 +1,12 @@
 name: Publish package to PyPI
 
 on:
-  push:
-    tags:
-      - "v*"
+  workflow_dispatch:
 
 jobs:
   pypi-publish:
     name: upload release to PyPI
     runs-on: ubuntu-latest
-    environment: publish
     permissions:
       id-token: write
     steps:
