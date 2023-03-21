@@ -1,6 +1,8 @@
 [project]
 name = "steiza-python-oidc-test"
 version = "0.0.1"
+description = "testing OIDC publish"
+long_description = "testing OIDC publish"
 
 [build-system]
 requires = ["setuptools>=61.0"]
